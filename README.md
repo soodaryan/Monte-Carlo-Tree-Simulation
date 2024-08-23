@@ -6,7 +6,7 @@ This repository contains a Flask-based API for running Monte Carlo Tree Simulati
 
 1. **Clone the Repository**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/soodaryan/Monte-Carlo-Tree-Simulation.git>
    cd <repository-directory>
 2. **Install the Required Libraries Make sure you have Flask installed. If not, you can install it using pip:**
     ```bash
