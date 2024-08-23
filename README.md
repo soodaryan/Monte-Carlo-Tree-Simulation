@@ -33,14 +33,13 @@ You can test the API using Postman. Here's how:
     <ul>
       <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
     </ul>
-    ```javascript
+    ```json
     {
-        "max_levels": 5,
-        "max_branches_per_node": 3,
-        "num_simulations": 100
+    "max_levels": 5,
+    "max_branches_per_node": 3,
+    "num_simulations": 100
     }
-    ```
-    
+
 3. **Send the Request**
     <ul>
       <li>Click Send to send the request to the API. The API will return a JSON array of outcome paths.</li>
