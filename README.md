@@ -33,7 +33,7 @@ You can test the API using Postman. Here's how:
     <ul>
       <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
     </ul>
-    ```json
+    ```yaml
     {
         "max_levels": 5,
         "max_branches_per_node": 3,
