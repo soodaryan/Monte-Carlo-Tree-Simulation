@@ -33,12 +33,12 @@ You can test the API using Postman. Here's how:
     <ul>
       <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
     </ul>
-    ```bash
+    ```json
     {
         "max_levels": 5,
         "max_branches_per_node": 3,
         "num_simulations": 100
-    }
+    }```
     
 3. **Send the Request**
     <ul>
