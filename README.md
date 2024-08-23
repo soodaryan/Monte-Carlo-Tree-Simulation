@@ -39,7 +39,7 @@ You can test the API using Postman. Here's how:
     }
     ```
 
-3. **Send the Request**
+3. **Send the Request :**
     <ul>
       <li>Click Send to send the request to the API. The API will return a JSON array of outcome paths.</li>
     </ul>
