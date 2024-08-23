@@ -33,6 +33,7 @@ You can test the API using Postman. Here's how:
     <ul>
       <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
     </ul>
+    <div>   
     ```json
     {
       "max_levels": 5,
@@ -40,7 +41,8 @@ You can test the API using Postman. Here's how:
       "num_simulations": 100
     }
     ```
-    
+    </div>
+
 3. **Send the Request**
     <ul>
       <li>Click Send to send the request to the API. The API will return a JSON array of outcome paths.</li>
@@ -49,3 +51,6 @@ You can test the API using Postman. Here's how:
 ## 📷 Postman Example
 Below is a screenshot of Postman with a sample request:
 ![postman-ss](postman-ss.png)
+
+
+
