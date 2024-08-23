@@ -24,11 +24,15 @@ You should see output similar to this:
 You can test the API using Postman. Here's how:
 
 1. **Set the Request Method and URL**
-    Method: POST
-    URL: http://127.0.0.1:5000/simulate
+    <ul>
+      <li>Method: POST</li>
+      <li>SURL: http://127.0.0.1:5000/simulate</li>
+    </ul>
+    
 2. **Set the Request Body**
-    Select raw and set the body type to JSON. Enter the following JSON in the body:
-
+    <ul>
+      <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
+    </ul>
     ```json
     {
         "max_levels": 5,
@@ -37,7 +41,9 @@ You can test the API using Postman. Here's how:
     }
     
 3. **Send the Request**
-Click Send to send the request to the API. The API will return a JSON array of outcome paths.
+    <ul>
+      <li>Click Send to send the request to the API. The API will return a JSON array of outcome paths.</li>
+    </ul>
 
 ## 📷 Postman Example
 Below is a screenshot of Postman with a sample request:
