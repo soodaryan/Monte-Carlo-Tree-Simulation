@@ -30,10 +30,7 @@ You can test the API using Postman. Here's how:
     </ul>
     
 2. **Set the Request Body**
-    <ul>
-      <li>Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
-    </ul>
-    <div>   
+    Select raw and set the body type to JSON. Enter the following JSON in the body:</li>
     ```json
     {
       "max_levels": 5,
@@ -41,7 +38,6 @@ You can test the API using Postman. Here's how:
       "num_simulations": 100
     }
     ```
-    </div>
 
 3. **Send the Request**
     <ul>
